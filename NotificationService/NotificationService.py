@@ -1,3 +1,5 @@
+#observer Pattern - when any changes in a class state immediately triggers method in another class.
+
 from abc import ABC, abstractmethod
 
 class StockObserver(ABC):
